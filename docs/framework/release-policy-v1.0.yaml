@@ -1,0 +1,16 @@
+version: "1.0"
+release:
+  unrestricted:
+    signature: optional
+    external_release: permitted
+  derived:
+    signature: required
+    external_release: prohibited
+    max_aggregation_level: group
+    min_source_records: 20
+  owner_data:
+    signature: required
+    external_release: prohibited
+    max_aggregation_level: group
+    min_source_records: 50
+    forbid_purposes: marketing

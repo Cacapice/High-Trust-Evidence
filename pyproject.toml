@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "high-trust-evidence"
+version = "1.4.0"
+description = "Shared evidence platform: qualification algebra, sovereign release policy, minimization metrics, disclosure accounting, and figure governance"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-only" }
+authors = [{ name = "Katherine J. Ombrellaro" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+hte-sign = "high_trust_evidence.release:sign_cli"
+hte-verify = "high_trust_evidence.release:verify_cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]

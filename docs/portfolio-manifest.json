@@ -1,0 +1,36 @@
+{
+  "portfolio_version": "2.0.0",
+  "structure": "split-repositories",
+  "platform": {
+    "repository": "high-trust-evidence-platform",
+    "distribution": "high-trust-evidence",
+    "version": "1.4.0",
+    "compatible_range": ">=1.4,<2"
+  },
+  "repositories": {
+    "iff": {
+      "name": "Inferential-Fidelity-Framework",
+      "version": "1.3.0",
+      "platform_requirement": ">=1.4,<2",
+      "phase": "method_release"
+    },
+    "benchmark": {
+      "name": "Benchmark-Stewardship_NOHARM_MAST",
+      "version": "1.3.0",
+      "platform_requirement": ">=1.4,<2",
+      "phase": "method_release"
+    },
+    "bayesian": {
+      "name": "Bayesian-Inferential-Fidelity",
+      "version": "1.3.0",
+      "platform_requirement": ">=1.4,<2",
+      "phase": "method_release"
+    },
+    "maritime": {
+      "name": "Maritime-Intent-Probe",
+      "version": "1.3.0",
+      "platform_requirement": ">=1.4,<2",
+      "phase": "phase_1_construct_validity_diagnostic"
+    }
+  }
+}
